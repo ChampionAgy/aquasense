@@ -13,6 +13,12 @@ temperature = 0
 humidiity = 0
 soil_moisture = 0
 
+sample_data = {
+    "temperature": temperature,
+    "humidity": humidity,
+    "moisture": soil_moisture
+}
+
 @app.post('/predict')
 async def get_humid(value: Request):
     global humidity, temperature, soil_moisture

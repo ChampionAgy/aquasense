@@ -10,7 +10,7 @@ model = joblib.load("irrigation_svm_model.pkl")
 # New sample (temperature, humidity, moisture)
 
 temperature = 0
-humidiity = 0
+humidity = 0
 soil_moisture = 0
 
 sample_data = {

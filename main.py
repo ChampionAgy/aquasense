@@ -5,17 +5,13 @@ import pandas as pd
 
 app = FastAPI()
 
-humidity = 0
-temperature = 0
-soil_moisture = 0
-
 model = joblib.load("irrigation_svm_model.pkl")
 
 # New sample (temperature, humidity, moisture)
 
-temperature = 0
-humidiity = 0
-soil_moisture = 0
+# temperature = 0
+# humidiity = 0
+# soil_moisture = 0
 
 # sample = pd.DataFrame([{
 #     "temperature": temperature,
